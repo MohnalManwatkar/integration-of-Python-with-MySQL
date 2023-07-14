@@ -6,10 +6,11 @@
 o DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc.
 o All the command of DDL are auto-committed that means it permanently save all the changes in the database.
 Here are some commands that come under DDL:
-o CREATE
-o ALTER
-o DROP
-o TRUNCATE
+
+- o CREATE
+- o ALTER
+- o DROP
+- o TRUNCATE
 a. CREATE: It is used to create a new table in the database.
 Syntax:
 1. CREATE TABLE TABLE_NAME (COLUMN_NAME DATATYPES[,....]); 
