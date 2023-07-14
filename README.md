@@ -132,4 +132,3 @@ For example:
 SELECT emp_name 
 FROM employee 
 WHERE age > 20; 
-• CREATE TABL
