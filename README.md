@@ -2,7 +2,7 @@
 
 ![image](https://github.com/MohnalManwatkar/integration-of-Python-with-MySQL/assets/108139334/bf948454-c403-430c-82e2-d4f8e32b4427)
 
-1. Data Definition Language (DDL)
+### 1. Data Definition Language (DDL)
 o DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc.
 o All the command of DDL are auto-committed that means it permanently save all the changes in the database.
 Here are some commands that come under DDL:
@@ -34,8 +34,10 @@ d. TRUNCATE: It is used to delete all the rows from the table and free the space
 Syntax:
 1. TRUNCATE TABLE table_name; 
 Example:
-1. TRUNCATE TABLE EMPLOYEE; 
-2. Data Manipulation Language
+1. TRUNCATE TABLE EMPLOYEE;
+
+
+### 2. Data Manipulation Language (DML)
 o DML commands are used to modify the database. It is responsible for all form of changes in the database.
 o The command of DML is not auto-committed that means it can't permanently save all the changes in the database. 
 They can be rollback.
@@ -65,8 +67,10 @@ Syntax:
 1. DELETE FROM table_name [WHERE condition]; 
 For example:
 1. DELETE FROM javatpoint 
-2. WHERE Author="Sonoo"; 
-3. Data Control Language
+2. WHERE Author="Sonoo";
+
+   
+### 3. Data Control Language (DCL)
 DCL commands are used to grant and take back authority from any database user.
 Here are some commands that come under DCL:
 o Grant
@@ -76,8 +80,10 @@ Example
 1. GRANT SELECT, UPDATE ON MY_TABLE TO SOME_USER, ANOTHER_USER; 
 b. Revoke: It is used to take back permissions from the user.
 Example
-1. REVOKE SELECT, UPDATE ON MY_TABLE FROM USER1, USER2; 
-4. Transaction Control Language
+1. REVOKE SELECT, UPDATE ON MY_TABLE FROM USER1, USER2;
+
+
+### 4. Transaction Control Language (TCL)
 TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only.
 These operations are automatically committed in the database that's why they cannot be used while creating tables or 
 dropping them.
@@ -101,8 +107,10 @@ Example:
 3. ROLLBACK; 
 c. SAVEPOINT: It is used to roll the transaction back to a certain point without rolling back the entire transaction.
 Syntax:
-1. SAVEPOINT SAVEPOINT_NAME; 
-5. Data Query Language
+1. SAVEPOINT SAVEPOINT_NAME;
+
+   
+### 5. Data Query Language (DQL)
 DQL is used to fetch the data from the database.
 It uses only one command:
 o SELECT
